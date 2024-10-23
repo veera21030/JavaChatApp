@@ -26,6 +26,8 @@ This is a simple Java-based chat application that allows **two users** to connec
    javac Server.java
    java Server
 
+<!-- Blank line added here for separation -->
+
    The server will automatically fetch your local IP address and start listening for client connections.
 
 3. **Run the Client**:
@@ -35,20 +37,22 @@ This is a simple Java-based chat application that allows **two users** to connec
    javac Client.java
    java Client
 
+<!-- Blank line added here for separation -->
+
    By default, the client will attempt to connect to the server using the local IP. The application allows two users to connect and chat at the same time.
 
 ## Features
 
-     Automatic local IP detection
+   - Automatic local IP detection
 
-     Two users can connect to the server and chat simultaneously
+   - Two users can connect to the server and chat simultaneously
 
-     Simple text-based communication
+   - Simple text-based communication
 
 ## Future Enhancements
 
-     Add support for multiple users to connect to the chat
+   - Add support for multiple users to connect to the chat
 
-     Add encryption for secure communication
+   - Add encryption for secure communication
 
-     Implement a GUI for easier usage
+   - Implement a GUI for easier usage
