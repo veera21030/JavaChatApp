@@ -37,14 +37,18 @@ This is a simple Java-based chat application that allows **two users** to connec
 
    By default, the client will attempt to connect to the server using the local IP. The application allows two users to connect and chat at the same time.
 
-##Features
+## Features
 
      Automatic local IP detection
+
      Two users can connect to the server and chat simultaneously
+
      Simple text-based communication
 
-##Future Enhancements
+## Future Enhancements
 
      Add support for multiple users to connect to the chat
+
      Add encryption for secure communication
+
      Implement a GUI for easier usage
