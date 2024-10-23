@@ -19,28 +19,32 @@ This is a simple Java-based chat application that allows **two users** to connec
    ```bash
    git clone https://github.com/veera21030/JavaChatApp.git
    cd JavaChatApp
-Run the Server:
+2. **Run the Server**:
 
-First, you need to run the Server.java file to start the chat server. This can be done in an IDE or via the terminal.
-javac Server.java
-java Server
+   First, you need to run the Server.java file to start the chat server. This can be done in an IDE or via the terminal.
+   ```bash
+   javac Server.java
+   java Server
 
-The server will automatically fetch your local IP address and start listening for client connections.
+   The server will automatically fetch your local IP address and start listening for client connections.
 
-Run the Client:
+3. **Run the Client**:
 
-After the server is running, you can run the Client.java file to connect a client to the server.
-javac Client.java
-java Client
+   After the server is running, you can run the Client.java file to connect a client to the server.
+   ```bash	
+   javac Client.java
+   java Client
 
-By default, the client will attempt to connect to the server using the local IP. The application allows two users to connect and chat at the same time.
+   By default, the client will attempt to connect to the server using the local IP. The application allows two users to connect and chat at the same time.
 
-Features
-Automatic local IP detection
-Two users can connect to the server and chat simultaneously
-Simple text-based communication
+##Features
 
-Future Enhancements
-Add support for multiple users to connect to the chat
-Add encryption for secure communication
-Implement a GUI for easier usage
+     Automatic local IP detection
+     Two users can connect to the server and chat simultaneously
+     Simple text-based communication
+
+##Future Enhancements
+
+     Add support for multiple users to connect to the chat
+     Add encryption for secure communication
+     Implement a GUI for easier usage
