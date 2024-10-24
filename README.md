@@ -68,7 +68,7 @@ This section explains how to run the **Server** on one machine and the **Client*
 
 <!-- Blank line added here for separation -->
 
-Replace SERVER_IP_ADDRESS with the actual IP address of the server machine (e.g., 192.168.1.5), and ensure the PORT_NUMBER is the same as used in the server.
+   - Replace SERVER_IP_ADDRESS with the actual IP address of the server machine (e.g., 192.168.1.5), and ensure the PORT_NUMBER is the same as used in the server.
 
 <!-- Blank line added here for separation -->
 
