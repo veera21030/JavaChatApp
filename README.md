@@ -41,6 +41,41 @@ This is a simple Java-based chat application that allows **two users** to connec
 
    By default, the client will attempt to connect to the server using the local IP. The application allows two users to connect and chat at the same time.
 
+## Running the Chat Application on Two Different Systems
+
+This section explains how to run the **Server** on one machine and the **Client** on another, allowing them to communicate over the same Wi-Fi network.
+
+### Prerequisites:
+- Both machines must be connected to the **same Wi-Fi network**.
+- Ensure that the **port number** used in both the server and client code is the same.
+
+### Steps for Server (Machine 1):
+1. Open the **Server** application code.
+2. Find the local IP address of the machine:
+   - Open **Command Prompt** and type the following command:
+     ```bash
+     ipconfig
+     ```
+   - Look for the **IPv4 Address** under the active network (e.g., `192.168.x.x` or `172.x.x.x`). This is the IP address your friend (the client) will need.
+3. Start the **Server** application by running the program. It will now wait for the client to connect.
+
+### Steps for Client (Machine 2):
+1. Obtain the IP address of the server machine (provided by your friend in the previous step).
+2. Open the **Client** application code.
+3. Modify the following line in the client code:
+   ```java
+   socket = new Socket("SERVER_IP_ADDRESS", PORT_NUMBER);
+
+<!-- Blank line added here for separation -->
+
+Replace SERVER_IP_ADDRESS with the actual IP address of the server machine (e.g., 192.168.1.5), and ensure the PORT_NUMBER is the same as used in the server.
+
+<!-- Blank line added here for separation -->
+
+
+4. Run the Client application. It will attempt to connect to the server using the provided IP address and port.
+
+
 ## Features
 
    - Automatic local IP detection
